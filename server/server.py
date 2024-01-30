@@ -17,7 +17,7 @@ sample_readings = [
 ]
 
 @app.route("/api/home", methods=['GET'])
-def data():
+def return_data():
     return jsonify(sample_readings[-5:])
 
 if __name__ == "__main__":
