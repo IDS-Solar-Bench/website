@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  background-color: #2E7D32; 
+  padding: 10px;
+  border-radius: 8px; 
+}
+
+.latest-reading {
+  background-color: white;
+  color: #2E7D32;
+  padding: 7px;
+  border-radius: 5px;
+}
+
+.latest-reading h2 {
+  text-align: center;
+}
+
+.chart {
+  margin: 1em 0.5em 2em 0em
+}
