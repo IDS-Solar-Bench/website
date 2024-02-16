@@ -11,7 +11,7 @@ function index() {
   const [readings, setReadings] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:8080/api/home")
+    fetch("http://localhost:8000/")
       .then((response) => response.json())
       .then((data) =>{
         setReadings(data.reverse());
