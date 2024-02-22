@@ -12,7 +12,7 @@ function index() {
 
     <div className='mainContent'>
 
-      <div className='customHeadingText' style={{color: "#237D5D", padding: "1em 0px"}}> Short Description of Solar Bench </div>
+      <div className='customHeadingTextMainContent' > Short Description of Solar Bench </div>
     
       <div className="foldBlockWrapper">
         <div className="foldBlock">

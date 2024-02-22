@@ -8,7 +8,7 @@ body {
 
 /* In every part of the website expect the navbar, we want padding on the left and right */
 .mainContent {
-  padding: 0% 10%;
+  padding: 0% 5%;
 }
 
 /* foldBlock defines the "double layer effect" */
@@ -22,22 +22,30 @@ body {
   padding: 20px;
 }
 
-/* The box shadow is absolutly placed behind the foldBlock, so we define extra padding to ensure that other divs do note overlap with it */
+/* The box shadow is absolutly placed behind the foldBlock, so we define extra padding to ensure that other divs do note overlap with the shadow */
 .foldBlockWrapper {
   padding: 20px 30px;
 
 }
 
-/* (Going off figma) We define here our own custom heading text */
-.customHeadingText {
-
+/* (Going off figma) We define here our own custom heading text. This will be used in two places, main content and nav so we extend these classes accordingly*/
+.customHeadingTextMainContent,
+.customHeadingTextNav {
   font-family: "IBM Plex Sans", sans-serif;
   font-weight: 600;
   font-style: normal;
-  
   font-size: 2em;
+}
 
+.customHeadingTextMainContent {
+  color: #237D5D;
+  padding: 1em 0px;
   text-align: center;
+}
+
+.customHeadingTextNav {
+  color: white;
+  padding: 10px 0px;
 }
 
 h1 {
