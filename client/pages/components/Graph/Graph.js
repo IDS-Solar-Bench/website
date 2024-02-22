@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+import style from './Graph.module.css';
 
 const Graph = () => {
 
@@ -9,6 +10,7 @@ const Graph = () => {
     const [temperature, setTemperature] = useState("Loading");
     const [capacity, setCapacity] = useState("Loading");
     const [readings, setReadings] = useState([]);
+    const [error, setError] = useState(false);
   
     useEffect(() => {
       fetch("api/data")
@@ -22,6 +24,7 @@ const Graph = () => {
           console.log(data);
         })
         .catch(error => {
+          setError(true);
           console.error(error);
         });
   
@@ -31,6 +34,10 @@ const Graph = () => {
       timestamp: reading.time.substring(12),
       temperature: reading.temp,
     }));
+
+    if(error) {
+      return <div className={style.errorMessage}> Server failed to return data. Please try again later. </div>
+    }
   
     return (
       <div>

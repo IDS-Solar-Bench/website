@@ -1,14 +1,14 @@
 import React from 'react';
-import Graph from './components/Graph'
-import Block from './components/Block/Block'
+import Graph from './components/Graph/Graph'
 
 function index() {
 
   return <div>
     
-    <Graph />
-    <Block />
-
+    <div className="foldBlock">
+      <Graph />
+    </div>
+    
   </div>
 }
 

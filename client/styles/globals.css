@@ -8,6 +8,17 @@ body {
   min-height: 100vh;
 }
 
+.foldBlock {
+
+  box-shadow: -30px -20px #237D5D;
+  background: #61AD92;
+
+  border-radius: 25px;
+  height: auto;
+  padding: 20px;
+
+}
+
 h1 {
   text-align: center;
   background-color: #2E7D32; 
