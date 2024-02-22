@@ -47,6 +47,11 @@ body {
   color: white;
 }
 
+.separator {
+  border: 1px solid #237D5D;
+  margin: 1em 0px;
+}
+
 h1 {
   text-align: center;
   background-color: #2E7D32; 
