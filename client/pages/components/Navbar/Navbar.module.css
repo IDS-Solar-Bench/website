@@ -12,20 +12,10 @@
 }
 
 .image {
-    max-width: 20px;
+    max-width: 100px;
     height: auto;
 }
 
-@media only screen and (max-width: 600px) {
-
-    .image {
-        max-width: 100px;
-        height: auto;
-    }
-
-    .nav {
-        
-
-    }
-
+.spacerDiv {
+    width: 100px;
 }
