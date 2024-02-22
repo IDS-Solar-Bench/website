@@ -2,4 +2,30 @@
     background: #237D5D;
     position: sticky;
     top: 0px;
-}   
+
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+.image {
+    max-width: 20px;
+    height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .image {
+        max-width: 100px;
+        height: auto;
+    }
+
+    .nav {
+        
+
+    }
+
+}
