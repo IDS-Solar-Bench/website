@@ -1,6 +1,7 @@
 import React from 'react';
 import Graph from './components/Graph/Graph'
 import Navbar from './components/Navbar/Navbar';
+import SplashImage from './components/Splash/SplashImage';
 
 function index() {
 
@@ -11,6 +12,8 @@ function index() {
 
 
     <div className='mainContent'>
+
+      <SplashImage />
 
       <div className='customHeadingTextMainContent' > Short Description of Solar Bench </div>
     
