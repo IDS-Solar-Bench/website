@@ -3,20 +3,41 @@
 @tailwind utilities;
 
 body {
-  background-color: #4CAF50;
-  padding: 20%;
   min-height: 100vh;
 }
 
-.foldBlock {
+/* In every part of the website expect the navbar, we want padding on the left and right */
+.mainContent {
+  padding: 0% 10%;
+}
 
+/* foldBlock defines the "double layer effect" */
+.foldBlock {
+  
   box-shadow: -30px -20px #237D5D;
   background: #61AD92;
 
   border-radius: 25px;
   height: auto;
   padding: 20px;
+}
 
+/* The box shadow is absolutly placed behind the foldBlock, so we define extra padding to ensure that other divs do note overlap with it */
+.foldBlockWrapper {
+  padding: 20px 30px;
+
+}
+
+/* (Going off figma) We define here our own custom heading text */
+.customHeadingText {
+
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  
+  font-size: 2em;
+
+  text-align: center;
 }
 
 h1 {
