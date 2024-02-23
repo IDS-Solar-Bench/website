@@ -2,6 +2,7 @@ import React from 'react';
 import Graph from './components/Graph/Graph'
 import Navbar from './components/Navbar/Navbar';
 import SplashImage from './components/Splash/SplashImage';
+import Stats from './components/Stats/Stats';
 
 function index() {
 
@@ -29,6 +30,9 @@ function index() {
       </div>
 
       <div className='separator' />
+
+      <Stats />
+
     </div>
   </div>
 }
