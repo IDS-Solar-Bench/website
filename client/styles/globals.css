@@ -25,7 +25,7 @@ body {
 
 /* The box shadow is absolutly placed behind the foldBlock, so we define extra padding to ensure that other divs do note overlap with the shadow */
 .foldBlockWrapper {
-  padding: 20px 30px;
+  padding: 20px 20px;
 
 }
 
@@ -60,17 +60,3 @@ h1 {
   border-radius: 8px; 
 }
 
-.latest-reading {
-  background-color: white;
-  color: #2E7D32;
-  padding: 7px;
-  border-radius: 5px;
-}
-
-.latest-reading h2 {
-  text-align: center;
-}
-
-.chart {
-  margin: 1em 0.5em 2em 0em
-}

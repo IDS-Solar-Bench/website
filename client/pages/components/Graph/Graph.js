@@ -41,8 +41,7 @@ const Graph = () => {
   
     return (
       <div>
-        <h1>IDS</h1>
-        <div className="latest-reading">
+        <div className={style.latestReading}>
           <h2>Latest Reading:</h2>
           <div>
             Timestamp: {timestamp},
@@ -52,8 +51,8 @@ const Graph = () => {
           </div>
         </div>
         
-        <div className="chart">
-          <ResponsiveContainer width="80%" height={300}>
+        <div className={style.chart}>
+          <ResponsiveContainer width="100%" height={300}>
             <LineChart data={graphData} margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
               <CartesianGrid strokeDasharray="3 3" />
               <XAxis dataKey="timestamp" />

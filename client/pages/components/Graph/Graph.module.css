@@ -2,3 +2,20 @@
     color: red;
     font-size: 1.5em;
 }
+
+.latestReading {
+    background-color: white;
+    color: #2E7D32;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.latest-reading h2 {
+    text-align: center;
+}
+
+.chart {
+    margin: 1em 0.5em 2em 0em
+}
+
+  
