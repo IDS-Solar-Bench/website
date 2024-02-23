@@ -7,8 +7,8 @@
 
 .section {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    align-content: baseline;
 }
 
 .numberStat {
@@ -19,3 +19,15 @@
 .line {
     display: flex;
 }
+
+@media all and (min-width: 768px) {
+    .section {
+        font-size: max(1vw, 0.6em);
+    }
+ }
+
+@media all and (max-width: 768px) {
+    .section {
+        font-size: 0.6em;
+    }
+ }

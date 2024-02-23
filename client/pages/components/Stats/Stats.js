@@ -22,7 +22,7 @@ const Stats = () => {
             <div className='customHeadingTextMainContent'>
                 which is equivalent to
             </div>
-            <pre className={style.line + ' customHeadingTextMainContent'}>
+            <pre className={style.line + ' customHeadingTextMainContent'} >
                 <div className={style.numberStat}>{poundsOfCO2}</div> pounds of CO2 emissions.
             </pre>
 
