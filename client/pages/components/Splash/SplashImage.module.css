@@ -1,14 +1,14 @@
 .container {
     display: flex;
     justify-content: center;
-    
+    padding-top: 1em;
 }
 
 .wrapper {
     position: relative;
     color: white;
     z-index: 0;
-    max-width: 70%;
+    max-width: 50%;
     display: block;
 }
   
@@ -17,5 +17,5 @@
     top: 50%;
     left: 35%;
     transform: translate(-50%, -50%);
-    font-size: 8vw;
+    font-size: 6vw;
 }

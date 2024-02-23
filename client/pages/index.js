@@ -14,7 +14,6 @@ function index() {
 
     <div className='mainContent'>
 
-
       <SplashImage />
 
       <div className='separator' />
@@ -32,6 +31,7 @@ function index() {
       <div className='separator' />
 
       <Stats />
+
 
     </div>
   </div>
