@@ -30,7 +30,7 @@ function index() {
 
       <div className='separator' />
 
-      <Stats />
+      <Stats wattage={250} />
 
 
     </div>

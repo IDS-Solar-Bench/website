@@ -1,18 +1,33 @@
 .errorMessage {
     color: red;
     font-size: 1.5em;
+    margin-bottom: 20px; /* Added margin for spacing */
 }
 
 .latestReading {
-    background-color: white;
+    background-color: #ffffff; /* White background */
     color: #2E7D32;
-    padding: 7px;
+    padding: 0.5em;
     border-radius: 5px;
+    text-align: center; /* Center aligning */
+    margin-bottom: 1em; 
 }
 
-.latest-reading h2 {
-    text-align: center;
+.readings{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 0.5em; /* Added margin for spacing */
 }
+
+
+.latestReading h2 {
+    font-size: 1.5em; /* Larger font size */
+    margin-bottom: 0.25em; /* Added margin for spacing */
+    font-weight: bold;
+    /* background-color: #5ec263; */
+    /* border-radius: 5px; */
+}
+
 
 .chart {
     margin: 1em 0.5em 2em 0em

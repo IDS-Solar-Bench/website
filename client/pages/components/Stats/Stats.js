@@ -2,10 +2,10 @@ import React from 'react';
 import { useState } from 'react';
 import style from './Stats.module.css'
 
-const Stats = () => {
+const Stats = ({wattage = 100, pounds = 100}) => {
 
-    const [poundsOfCO2, setPoundsOfCO2] = useState("...");
-    const [wattsGenerated, setWattsGenerated] = useState("...");
+    const [poundsOfCO2, setPoundsOfCO2] = useState(pounds);
+    const [wattsGenerated, setWattsGenerated] = useState(wattage);
 
     return <div className={style.container}>
         <div className={style.section}>

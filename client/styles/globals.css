@@ -15,8 +15,8 @@ body {
 /* foldBlock defines the "double layer effect" */
 .foldBlock {
   
-  box-shadow: -30px -20px #237D5D;
-  background: #61AD92;
+  box-shadow: -15px -12px #237D5D;
+  background: #5ac759;
 
   border-radius: 25px;
   height: auto;
@@ -26,7 +26,6 @@ body {
 /* The box shadow is absolutly placed behind the foldBlock, so we define extra padding to ensure that other divs do note overlap with the shadow */
 .foldBlockWrapper {
   padding: 20px 20px;
-
 }
 
 /* (Going off figma) We define here our own custom heading text. This will be used in two places, main content and nav so we extend these classes accordingly*/
