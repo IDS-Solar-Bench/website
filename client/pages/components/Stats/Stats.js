@@ -1,13 +1,18 @@
 import React from 'react';
 import { useState } from 'react';
 import style from './Stats.module.css'
+import Block from './Block/Block';
 
 const Stats = ({wattage = 100, pounds = 100}) => {
 
     const [poundsOfCO2, setPoundsOfCO2] = useState(pounds);
     const [wattsGenerated, setWattsGenerated] = useState(wattage);
 
+    /*
     return <div className={style.container}>
+
+
+
         <div className={style.section}>
             <div className='customHeadingTextMainContent'>
             The bench has generated 
@@ -17,6 +22,13 @@ const Stats = ({wattage = 100, pounds = 100}) => {
             </pre>
 
         </div>
+
+
+
+
+
+
+
 
         <div className={style.section}>
             <div className='customHeadingTextMainContent'>
@@ -28,6 +40,10 @@ const Stats = ({wattage = 100, pounds = 100}) => {
 
         </div>
     </div>
+
+    */
+
+    return <Block />
 
 }
 

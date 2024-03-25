@@ -11,26 +11,32 @@ function index() {
 
     <Navbar />
 
+    <SplashImage />
 
     <div className='mainContent'>
 
-      <SplashImage />
-
-      <div className='separator' />
-
-      <div className='customHeadingTextMainContent' > Short Description of Solar Bench </div>
-
-      <div className='separator' /> 
-
-      <div className="foldBlockWrapper">
-        <div className="foldBlock">
-          <Graph />
-        </div>
-      </div>
-
-      <div className='separator' />
 
       <Stats wattage={250} />
+
+
+      <div className='graphWrapper'>
+
+        <div className='separator' /> 
+
+
+        <div className="foldBlockWrapper">
+          <div className="foldBlock">
+            <Graph />
+          </div>
+        </div>
+
+        <div className='separator' />
+
+      </div>
+
+      
+
+
 
 
     </div>

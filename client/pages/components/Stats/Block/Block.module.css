@@ -1,0 +1,24 @@
+.introductionText {
+    font-size: 6vw;
+    text-align: left;
+
+}
+
+.statsWrapper {
+    text-align: right;
+    flex: auto;
+    display: flex;
+}
+
+.spacer {
+    width: 20%;
+}
+
+.statsText {
+    font-size: 5vw;
+    width: 80%;
+    background-color: #237D5D;
+    color: white;
+    text-align: right;
+    padding: 10px;
+}

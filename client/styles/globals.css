@@ -7,6 +7,15 @@ body {
   justify-content: center;
 }
 
+/* If we are on phone view, we dont want to be showing the users the graph */
+
+@media all and (max-width: 768px) {
+  .graphWrapper {
+    display: none;
+  }
+}
+
+
 /* In every part of the website expect the navbar, we want padding on the left and right */
 .mainContent {
   padding: 0% 5%;
@@ -15,8 +24,8 @@ body {
 /* foldBlock defines the "double layer effect" */
 .foldBlock {
   
-  box-shadow: -15px -12px #237D5D;
-  background: #5ac759;
+  box-shadow: -15px -12px #61AD92;
+  background: #237D5D;
 
   border-radius: 25px;
   height: auto;

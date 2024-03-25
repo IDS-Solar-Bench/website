@@ -38,9 +38,10 @@ const Graph = () => {
     if(error) {
       return <div className={style.errorMessage}> Server failed to return data. Please try again later. </div>
     }
+
   
     return (
-      <div>
+      <div className={style.wrapper}>
         <div className={style.latestReading}>
           <h2>Latest Reading</h2>
           <div className={style.readings}>
