@@ -43,7 +43,10 @@ const Stats = ({wattage = 100, pounds = 100}) => {
 
     */
 
-    return <Block />
+    return <div>
+        <Block introText="Over its lifetime, this bench has already saved" stat={poundsOfCO2} statText="pounds of CO2 emissions" />
+        <Block introText='which is equivalent to' stat={wattsGenerated} statText='watts of electricity' />
+    </div>
 
 }
 

@@ -14,11 +14,32 @@
     width: 20%;
 }
 
+/* A little sneaky trick, to have the overflow off the screen look, we add a box shadow
+and oveflow it off the screen.*/
 .statsText {
     font-size: 5vw;
     width: 80%;
     background-color: #237D5D;
     color: white;
-    text-align: right;
-    padding: 10px;
+    border-radius: 25px;
+    padding-left: 10px;
+    text-align: left;
+    box-shadow: 100px 0px #237D5D;
+}
+
+@media screen and (min-width: 500px) {
+    .introductionText {
+        font-size: 30px;
+    }
+
+    .statsText {
+        font-size: 25px;
+    }
+    
+}
+
+@media screen and (min-width: 700px) {
+    .spacer {
+        width: 40%;
+    }
 }
