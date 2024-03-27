@@ -3,6 +3,7 @@ import Graph from './components/Graph/Graph'
 import Navbar from './components/Navbar/Navbar';
 import SplashImage from './components/Splash/SplashImage';
 import Stats from './components/Stats/Stats';
+import IconStatComponent from './components/IconStatComponent/IconStatComponent'
 
 function index() {
 
@@ -17,6 +18,10 @@ function index() {
 
 
       <Stats wattage={250} />
+
+      <div className='separator' />
+
+      <IconStatComponent />
 
 
       <div className='graphWrapper'>
