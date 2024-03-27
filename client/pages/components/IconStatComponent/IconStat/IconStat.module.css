@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+}
+
+
+.iconSeparator {
+    border-left: 2px solid white;
+    margin: 0em 1em;
+}
+
+.text {
+    font-size: medium;
+    color: white;
+
+}

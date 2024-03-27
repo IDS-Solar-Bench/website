@@ -14,14 +14,22 @@ function index() {
 
     <SplashImage />
 
+    
+
     <div className='mainContent'>
+
+      <div className='separator' />
 
 
       <Stats wattage={250} />
 
       <div className='separator' />
 
-      <IconStatComponent />
+      <div className="foldBlockWrapper">
+          <div className="foldBlock">
+            <IconStatComponent />
+          </div>
+      </div>
 
 
       <div className='graphWrapper'>
@@ -39,11 +47,7 @@ function index() {
 
       </div>
 
-      
-
-
-
-
+    
     </div>
   </div>
 }
