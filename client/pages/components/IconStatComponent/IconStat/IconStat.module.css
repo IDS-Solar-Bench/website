@@ -1,7 +1,15 @@
 .container {
     display: flex;
+    padding: 5px;
+    justify-content: center;
 }
 
+.iconContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
 
 .iconSeparator {
     border-left: 2px solid white;
@@ -9,6 +17,7 @@
 }
 
 .text {
+    font-weight: 400;
     font-size: medium;
     color: white;
 
