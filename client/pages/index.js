@@ -4,6 +4,7 @@ import Navbar from './components/Navbar/Navbar';
 import SplashImage from './components/Splash/SplashImage';
 import Stats from './components/Stats/Stats';
 import IconStatComponent from './components/IconStatComponent/IconStatComponent'
+import Description from './components/Description/Description';
 
 function index() {
 
@@ -33,15 +34,15 @@ function index() {
 
 
       <div className='graphWrapper'>
-
         <div className="foldBlockWrapper">
           <div className="foldBlock">
             <Graph />
           </div>
         </div>
+      </div>
 
-        <div className='separator' />
-
+      <div>
+        <Description />
       </div>
 
     

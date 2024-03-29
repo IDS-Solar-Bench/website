@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+}
+
+.textContainer {
+    width: 50%;
+}
+
+
+@media screen and (max-width: 500px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .textContainer {
+        width: 100%
+    }
+    
+}
