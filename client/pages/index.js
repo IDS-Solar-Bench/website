@@ -23,6 +23,8 @@ function index() {
 
       <Stats wattage={250} />
 
+      <div className='statsSeparator' />
+
       <div className="foldBlockWrapper">
           <div className="foldBlock">
             <IconStatComponent />
@@ -31,7 +33,6 @@ function index() {
 
 
       <div className='graphWrapper'>
-
 
         <div className="foldBlockWrapper">
           <div className="foldBlock">
