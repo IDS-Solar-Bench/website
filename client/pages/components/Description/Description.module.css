@@ -6,10 +6,18 @@
     width: 50%;
 }
 
+.textDescription {
+    font-size: 20px;
+}
+
 
 @media screen and (max-width: 500px) {
     .container {
         flex-direction: column;
+    }
+
+    .textDescription {
+        font-size: 18px
     }
 
     .textContainer {
