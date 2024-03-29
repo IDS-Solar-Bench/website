@@ -19,8 +19,6 @@ function index() {
 
     <div className='mainContent'>
 
-      <div className='separator' />
-
 
       <Stats wattage={250} />
 
