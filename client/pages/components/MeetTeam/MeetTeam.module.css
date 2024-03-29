@@ -1,0 +1,10 @@
+.heading {
+    color: white;
+    padding: 4px;
+}
+
+.teamContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;  
+}

@@ -1,0 +1,61 @@
+.container {
+    width: 200px;
+    padding: 8px;
+}
+
+.photoContainer {
+    display: flex;  
+    justify-content: center;
+    border-radius: 50%; 
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.name {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.role {
+    font-size: 13px;
+    font-weight: 300;
+}   
+
+@media screen and (max-width: 500px) {
+    .container {
+        width: 80px;
+    }
+
+    .name {
+        font-size: 12px;
+    }
+
+    .role {
+        font-size: 10px;
+    }
+
+}
+
+@media screen and (min-width: 500px) and (max-width: 800px) {
+    .container {
+        width: 150px;
+    }
+
+    .name {
+        font-size: 15px;
+    }
+
+    .role {
+        font-size: 12px;
+    }
+    
+}

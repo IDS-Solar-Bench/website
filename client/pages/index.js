@@ -5,6 +5,7 @@ import SplashImage from './components/Splash/SplashImage';
 import Stats from './components/Stats/Stats';
 import IconStatComponent from './components/IconStatComponent/IconStatComponent'
 import Description from './components/Description/Description';
+import MeetTeam from './components/MeetTeam/MeetTeam';
 
 function index() {
 
@@ -39,8 +40,12 @@ function index() {
         </div>
       </div>
 
-      <div>
-        <Description />
+      <Description />
+
+      <div className="foldBlockWrapper">
+        <div className="foldBlock">
+          <MeetTeam />
+        </div>
       </div>
 
     
