@@ -1,13 +1,18 @@
 .container {
     display: flex;
+    align-items: center;
 }
 
 .textContainer {
-    width: 50%;
+    width: 45%;
 }
 
 .textDescription {
     font-size: 20px;
+}
+
+.photoContainer {
+    width: 50%;
 }
 
 
@@ -21,6 +26,10 @@
     }
 
     .textContainer {
+        width: 100%
+    }
+
+    .photoContainer {
         width: 100%
     }
     
