@@ -1,3 +1,15 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.inputsWrapper {
+    width: 100%;
+}
+
 .nameEmailContainer {
     display: flex;
     justify-content: space-between;
@@ -30,3 +42,11 @@
     height: 100%;
 }
 
+.submitButton {
+    background-color: #237D5D;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 30%;
+}
