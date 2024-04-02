@@ -6,14 +6,19 @@
 }
 
 .nameEmailContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 
 }
 
 .nameWrapper {
+    width: 40%;
     display: block;
 }
 
 .emailWrapper {
+    width: 50%;
     display: block;
 }
 
@@ -21,12 +26,8 @@
     display: block;
 }
 
-.name {
-    width: 40%;
-}
-
-.email {
-    width: 50%;
+.name, .email {
+    width: 100%;
 }
 
 

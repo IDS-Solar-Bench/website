@@ -43,7 +43,7 @@ const Feedback = () => {
 
             <div className={style.messageWrapper}>
                 <label htmlFor="message" className={style.label}> Message * </label>
-                <textarea name="message" id="message" className={style.message} placeholder="One suggestion about the bench I had..." onChange={handleChangeInput}/>
+                <textarea name="message" id="message" required className={style.message} placeholder="One suggestion about the bench I had..." onChange={handleChangeInput}/>
             </div>
 
             <button type="submit" className={style.submitButton}> Submit </button>
