@@ -48,6 +48,8 @@ function index() {
         </div>
       </div>
 
+      <Feedback />
+      
     
     </div>
   </div>
