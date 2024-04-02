@@ -1,0 +1,41 @@
+.container {
+}
+
+.messageWrapper {
+    width: 100%;
+}
+
+.nameEmailContainer {
+
+}
+
+.nameWrapper {
+    display: block;
+}
+
+.emailWrapper {
+    display: block;
+}
+
+.label {
+    display: block;
+}
+
+.name {
+    width: 40%;
+}
+
+.email {
+    width: 50%;
+}
+
+
+.message {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+

@@ -6,6 +6,7 @@ import Stats from './components/Stats/Stats';
 import IconStatComponent from './components/IconStatComponent/IconStatComponent'
 import Description from './components/Description/Description';
 import MeetTeam from './components/MeetTeam/MeetTeam';
+import Feedback from './components/Feedback/Feedback';
 
 function index() {
 
@@ -49,7 +50,7 @@ function index() {
       </div>
 
       <Feedback />
-      
+
     
     </div>
   </div>
